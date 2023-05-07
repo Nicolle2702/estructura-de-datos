@@ -27,14 +27,14 @@ class BigInteger{
         void quotient(BigInteger& elem);
         void remainder(BigInteger& elem);
         void pow(BigInteger& elem);
-        vector<Elemento> toString();
+        Elemento toString();
 
     //SOBREGARGA DE OPERADORES:
-        void operator+(BigInteger elem);
-        void operator-(BigInteger elem);
-        void operator*(BigInteger elem);
-        void operator/(BigInteger elem);
-        void operator%(BigInteger elem);
+        Biginteger operator+(BigInteger elem);
+        Biginteger operator-(BigInteger elem);
+        Biginteger operator*(BigInteger elem);
+        Biginteger operator/(BigInteger elem);
+        Biginteger operator%(BigInteger elem);
         bool operator==(BigInteger elem);
         bool operator<(BigInteger elem);
         bool operator<=(BigInteger elem);
