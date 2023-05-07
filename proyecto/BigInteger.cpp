@@ -46,6 +46,6 @@ void pow(BigInteger& elem){
 
 }
 
-vector<Elemento> BigInteger::toString() {
+Elemento BigInteger::toString() {
 
 }
