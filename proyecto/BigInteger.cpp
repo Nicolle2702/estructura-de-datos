@@ -7,7 +7,7 @@
 using namespace std;
 
 
-BigInteger::BigInteger(Elemento elem){
+BigInteger::BigInteger(Elemento &elem){
     vector<int> vec;
     for(int i=0;i<elem.size();i++){
         int posi= elem[i]-'0';
