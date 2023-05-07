@@ -21,23 +21,23 @@ class BigInteger{
         BigInteger(Elemento elem);
         BigInteger();
 
-        void add(BigInteger& elem);
-        void product(BigInteger& elem);
-        void substract(BigInteger& elem);
-        void quotient(BigInteger& elem);
-        void remainder(BigInteger& elem);
-        void pow(BigInteger& elem);
+        void add(BigInteger &elem);
+        void product(BigInteger &elem);
+        void substract(BigInteger &elem);
+        void quotient(BigInteger &elem);
+        void remainder(BigInteger &elem);
+        void pow(BigInteger &elem);
         Elemento toString();
 
     //SOBREGARGA DE OPERADORES:
-        Biginteger operator+(BigInteger elem);
-        Biginteger operator-(BigInteger elem);
-        Biginteger operator*(BigInteger elem);
-        Biginteger operator/(BigInteger elem);
-        Biginteger operator%(BigInteger elem);
-        bool operator==(BigInteger elem);
-        bool operator<(BigInteger elem);
-        bool operator<=(BigInteger elem);
+        Biginteger operator+(BigInteger &elem);
+        Biginteger operator-(BigInteger &elem);
+        Biginteger operator*(BigInteger &elem);
+        Biginteger operator/(BigInteger &elem);
+        Biginteger operator%(BigInteger &elem);
+        bool operator==(BigInteger &elem);
+        bool operator<(BigInteger &elem);
+        bool operator<=(BigInteger &elem);
 
 
 
