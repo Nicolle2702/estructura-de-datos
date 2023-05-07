@@ -18,7 +18,7 @@ class BigInteger{
         vector<int> valor;
 
     public:
-        BigInteger(Elemento elem);
+        BigInteger(Elemento &elem);
         BigInteger();
 
         void add(BigInteger &elem);
